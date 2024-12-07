@@ -1,0 +1,20 @@
+@use './common.scss';
+
+body {
+    background-color: var(--primary-color);
+    color: var(--text-dark);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    margin: var(--spacing-md);
+    padding: var(--spacing-md);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.btn {
+    padding: var(--spacing-sm) var(--spacing-md);
+    background-color: var(--primary-color);
+    color: var(--text-dark);
+    border-radius: 0.2rem;
+
+}

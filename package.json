@@ -1,0 +1,32 @@
+{
+  "name": "js-webpack",
+  "version": "1.0.0",
+  "description": "Simple project to learn webpack and js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.prod.js",
+    "dev": "cross-env API_URL='http://localhost:3000' webpack serve --config webpack.config.dev.js"
+  },
+  "keywords": [
+    "js",
+    "webpack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "sass": "^1.82.0",
+    "sass-loader": "^16.0.4",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.97.1",
+    "webpack-bundle-analyzer": "^4.10.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0",
+    "webpack-merge": "^6.0.1"
+  }
+}

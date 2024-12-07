@@ -1,0 +1,16 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --text-dark: #333;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 3rem;
+    --spacing-sm: 0.8rem;
+    --spacing-xs: 0.4rem;
+}
+html {
+    font-size: 62.5%;
+}
+* {
+    box-sizing: border-box;
+}
